@@ -1,0 +1,6 @@
+framework module AMPopover {
+  umbrella header "AMPopover-umbrella.h"
+
+  export *
+  module * { export * }
+}

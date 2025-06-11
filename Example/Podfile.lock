@@ -1,0 +1,16 @@
+PODS:
+  - AMPopover (1.0.0)
+
+DEPENDENCIES:
+  - AMPopover (from `../`)
+
+EXTERNAL SOURCES:
+  AMPopover:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AMPopover: 3a3a5b863ca0ca72340cd11a42cccf943da20a5e
+
+PODFILE CHECKSUM: 992ec3b16617c6cf7d6eee5db03db34196aa4516
+
+COCOAPODS: 1.16.2

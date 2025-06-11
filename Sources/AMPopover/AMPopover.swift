@@ -35,6 +35,11 @@ public class AMPopover: UIView {
         }
     }
     
+    /// 弹出框的内容视图
+    /// - 支持两种方式设置大小：
+    ///   1. 通过设置 frame.size 直接指定大小
+    ///   2. 使用 Auto Layout 约束，系统会自动计算合适的大小
+    /// - 注意：如果同时设置了 frame.size 和 Auto Layout 约束，优先使用 frame.size
     private var contentView: UIView
     private var arrowLayer: CAShapeLayer
     private var isShowingAbove: Bool = false
@@ -96,8 +101,18 @@ public class AMPopover: UIView {
         let anchorFrame = anchorView.convert(anchorView.bounds, to: nil)
         
         // 计算内容视图的大小
-        contentView.sizeToFit()
-        let contentSize = contentView.bounds.size
+        var contentSize: CGSize
+        if contentView.frame.size != .zero {
+            // 如果设置了 frame.size，直接使用
+            contentSize = contentView.frame.size
+        } else {
+            // 使用 autolayout 计算大小
+            contentSize = contentView.systemLayoutSizeFitting(
+                CGSize(width: UIScreen.main.bounds.width - minMargin * 2, height: UIView.layoutFittingCompressedSize.height),
+                withHorizontalFittingPriority: .fittingSizeLevel,
+                verticalFittingPriority: .fittingSizeLevel
+            )
+        }
         
         // 计算气泡视图的总大小
         let totalWidth = contentSize.width
@@ -208,7 +223,7 @@ public class AMPopover: UIView {
     }
     
     deinit {
-        print("AMPopover dealloc")
+        // print("AMPopover dealloc")
     }
 }
 

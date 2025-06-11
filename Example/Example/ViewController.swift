@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     
     private lazy var topLeftButton: UIButton = {
         let button = UIButton(type: .system)
-        button.setTitle("左上菜单", for: .normal)
+        button.setTitle("自定义视图", for: .normal)
         button.addTarget(self, action: #selector(topLeftButtonTapped), for: .touchUpInside)
         return button
     }()
