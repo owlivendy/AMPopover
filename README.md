@@ -22,6 +22,14 @@ AMPopover intelligently calculates the optimal display position based on the anc
 3. Adjusts horizontal position to prevent screen edge overflow
 4. Maintains minimum margins for optimal visual experience
 
+![Auto Position Adjustment](./assets/auto_position.png)
+
+### Custom Content Support
+
+AMPopover supports custom content views, allowing you to create rich and interactive popovers:
+
+![Custom Content Example](./assets/custom_content.png)
+
 ## Installation
 
 ### Swift Package Manager

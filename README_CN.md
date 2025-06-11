@@ -22,6 +22,14 @@ AMPopover 会根据锚点视图智能计算最佳显示位置：
 3. 自动调整水平位置防止超出屏幕边缘
 4. 保持最小边距以获得最佳视觉体验
 
+![自动位置调整](./assets/auto_position.png)
+
+### 自定义内容支持
+
+AMPopover 支持自定义内容视图，让您可以创建丰富且交互性强的弹出框：
+
+![自定义内容示例](./assets/custom_content.png)
+
 ## 安装
 
 ### Swift Package Manager
