@@ -2,6 +2,8 @@
 
 A simple and customizable iOS popover component with automatic position adjustment and arrow pointing.
 
+[English](./README.md) | [简体中文](./README_CN.md)
+
 ## Features
 
 - Automatic position adjustment to ensure popover always stays within screen bounds
