@@ -22,7 +22,7 @@ public class AMPopoverMenuView: UIView {
     /// 菜单的背景颜色
     /// - 默认值: 深色模式为 .systemGray6，浅色模式为 .white
     /// - 同时影响菜单内容和箭头的颜色
-    public var menuBackgroundColor: UIColor = .popoverDefaultBackground {
+    public var menuBackgroundColor: UIColor = AMPopoverColor.defaultBackground {
         didSet {
             tableView.backgroundColor = menuBackgroundColor
             if let popoverView = popoverView {

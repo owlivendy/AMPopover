@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMPopover'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'A simple and customizable iOS popover component with automatic position adjustment and arrow pointing.'
   s.description      = <<-DESC
 AMPopover is a simple and customizable iOS popover component that provides automatic position adjustment and smart arrow pointing. It's perfect for displaying menus, tooltips, or any custom content in a popover style.

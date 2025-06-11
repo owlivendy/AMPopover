@@ -1,7 +1,7 @@
 import UIKit
 
-extension UIColor {
-    static var popoverDefaultBackground: UIColor {
+struct AMPopoverColor {
+    static var defaultBackground: UIColor {
         return UIColor { traitCollection in
             if traitCollection.userInterfaceStyle == .dark {
                 return .systemGray6  // 深色模式颜色
@@ -40,7 +40,7 @@ public class AMPopover: UIView {
     /// - 默认值: 深色模式为 .systemGray6，浅色模式为 .white
     /// - 同时影响内容视图和箭头的颜色
     /// - 设置此属性会自动更新内容视图和箭头的颜色
-    public var contentBackgroundColor: UIColor = .popoverDefaultBackground {
+    public var contentBackgroundColor: UIColor = AMPopoverColor.defaultBackground {
         didSet {
             contentView.backgroundColor = contentBackgroundColor
             arrowLayer.fillColor = contentBackgroundColor.cgColor
