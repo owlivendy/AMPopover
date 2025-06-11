@@ -110,7 +110,7 @@ menuView.show(with: button)
 
 ## Requirements
 
-- iOS 11.0+
+- iOS 12.0+
 - Swift 5.0+
 
 ## License
