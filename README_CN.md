@@ -12,6 +12,7 @@
 - 点击背景自动关闭
 - 流畅的动画效果
 - 支持 Swift Package Manager 和 CocoaPods
+- 支持深色模式，提供动态颜色
 
 ## 智能位置调整
 
@@ -29,6 +30,25 @@ AMPopover 会根据锚点视图智能计算最佳显示位置：
 AMPopover 支持自定义内容视图，让您可以创建丰富且交互性强的弹出框：
 
 ![自定义内容示例](./assets/custom_content.png)
+
+### 深色模式支持
+
+AMPopover 提供内置的深色模式支持，使用动态颜色：
+
+```swift
+// 使用默认背景色（自动适应深色模式）
+let popover = AMPopover(contentView: contentView)
+
+// 或者使用动态颜色自定义
+let customColor = UIColor { traitCollection in
+    if traitCollection.userInterfaceStyle == .dark {
+        return .systemGray5
+    } else {
+        return .systemBackground
+    }
+}
+popover.contentBackgroundColor = customColor
+```
 
 ## 安装
 
@@ -108,7 +128,7 @@ menuView.show(with: button)
 
 ## 系统要求
 
-- iOS 12.0+
+- iOS 13.0+
 - Swift 5.0+
 
 ## 许可证

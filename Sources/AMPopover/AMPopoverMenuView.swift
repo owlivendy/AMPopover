@@ -20,9 +20,9 @@ public class AMPopoverMenuView: UIView {
     public var maxHeight: CGFloat = 44 * 5
     
     /// 菜单的背景颜色
-    /// - 默认值: .white
+    /// - 默认值: 深色模式为 .systemGray6，浅色模式为 .white
     /// - 同时影响菜单内容和箭头的颜色
-    public var menuBackgroundColor: UIColor = .white {
+    public var menuBackgroundColor: UIColor = .popoverDefaultBackground {
         didSet {
             tableView.backgroundColor = menuBackgroundColor
             if let popoverView = popoverView {
@@ -113,7 +113,7 @@ extension AMPopoverMenuView: UITableViewDataSource {
         cell.textLabel?.text = menuItems[indexPath.row].title
         cell.textLabel?.textAlignment = .center
         cell.textLabel?.font = .systemFont(ofSize: 14)
-        cell.textLabel?.textColor = .black
+        cell.textLabel?.textColor = .label
         cell.backgroundColor = menuBackgroundColor
         return cell
     }

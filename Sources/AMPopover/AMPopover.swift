@@ -1,5 +1,17 @@
 import UIKit
 
+extension UIColor {
+    static var popoverDefaultBackground: UIColor {
+        return UIColor { traitCollection in
+            if traitCollection.userInterfaceStyle == .dark {
+                return .systemGray6  // 深色模式颜色
+            } else {
+                return .white  // 浅色模式颜色
+            }
+        }
+    }
+}
+
 public class AMPopover: UIView {
     
     // MARK: - Properties
@@ -25,10 +37,10 @@ public class AMPopover: UIView {
     public var minMargin: CGFloat = 10
     
     /// 弹出框的背景颜色
-    /// - 默认值: .white
+    /// - 默认值: 深色模式为 .systemGray6，浅色模式为 .white
     /// - 同时影响内容视图和箭头的颜色
     /// - 设置此属性会自动更新内容视图和箭头的颜色
-    public var contentBackgroundColor: UIColor = .white {
+    public var contentBackgroundColor: UIColor = .popoverDefaultBackground {
         didSet {
             contentView.backgroundColor = contentBackgroundColor
             arrowLayer.fillColor = contentBackgroundColor.cgColor
@@ -75,6 +87,15 @@ public class AMPopover: UIView {
         // 创建箭头图层
         arrowLayer.fillColor = contentBackgroundColor.cgColor
         layer.addSublayer(arrowLayer)
+    }
+    
+    public override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        super.traitCollectionDidChange(previousTraitCollection)
+        
+        if traitCollection.hasDifferentColorAppearance(comparedTo: previousTraitCollection) {
+            // 更新箭头颜色
+            arrowLayer.fillColor = contentBackgroundColor.cgColor
+        }
     }
     
     // MARK: - Public Methods
@@ -164,7 +185,7 @@ public class AMPopover: UIView {
         drawArrow()
         
         // 添加到窗口
-        if let window = UIApplication.shared.keyWindow {
+        if let window = anchorView.window {
             window.addSubview(backgroundView!)
             backgroundView?.addSubview(self)
         }
@@ -223,6 +244,7 @@ public class AMPopover: UIView {
     }
     
     deinit {
+        NotificationCenter.default.removeObserver(self)
         // print("AMPopover dealloc")
     }
 }

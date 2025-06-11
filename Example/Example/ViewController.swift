@@ -51,7 +51,7 @@ class ViewController: UIViewController {
     }
     
     private func setupUI() {
-        view.backgroundColor = .white
+        view.backgroundColor = .systemBackground
         
         // 添加所有按钮
         [centerButton, topLeftButton, topRightButton, bottomLeftButton, bottomRightButton].forEach {

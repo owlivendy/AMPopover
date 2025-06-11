@@ -12,6 +12,7 @@ A simple and customizable iOS popover component with automatic position adjustme
 - Background tap to dismiss
 - Smooth animation effects
 - Support for both Swift Package Manager and CocoaPods
+- Dark mode support with dynamic colors
 
 ## Smart Position Adjustment
 
@@ -29,6 +30,25 @@ AMPopover intelligently calculates the optimal display position based on the anc
 AMPopover supports custom content views, allowing you to create rich and interactive popovers:
 
 ![Custom Content Example](./assets/custom_content.png)
+
+### Dark Mode Support
+
+AMPopover provides built-in dark mode support with dynamic colors:
+
+```swift
+// Use default background color (automatically adapts to dark mode)
+let popover = AMPopover(contentView: contentView)
+
+// Or customize colors with dynamic colors
+let customColor = UIColor { traitCollection in
+    if traitCollection.userInterfaceStyle == .dark {
+        return .systemGray5
+    } else {
+        return .systemBackground
+    }
+}
+popover.contentBackgroundColor = customColor
+```
 
 ## Installation
 
@@ -120,7 +140,7 @@ menuView.show(with: button)
 
 ## Requirements
 
-- iOS 12.0+
+- iOS 13.0+
 - Swift 5.0+
 
 ## License
