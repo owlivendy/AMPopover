@@ -1,8 +1,8 @@
 {
   "name": "AMPopover",
   "version": "1.0.0",
-  "summary": "A simple and customizable popover menu for iOS.",
-  "description": "AMPopover is a simple and customizable popover menu for iOS. It provides a clean and easy-to-use interface for displaying popover menus with customizable items.",
+  "summary": "A simple and customizable iOS popover component with automatic position adjustment and arrow pointing.",
+  "description": "AMPopover is a simple and customizable iOS popover component that supports automatic position adjustment and arrow pointing. It intelligently calculates the optimal display position based on the anchor view, ensuring the popover always stays within screen bounds.",
   "homepage": "https://github.com/owlivendy/AMPopover",
   "license": {
     "type": "MIT",
@@ -16,9 +16,9 @@
     "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "11.0"
+    "ios": "12.0"
   },
   "swift_versions": "5.0",
-  "source_files": "Sources/AMPopover/*.swift",
+  "source_files": "Sources/AMPopover/**/*",
   "swift_version": "5.0"
 }
