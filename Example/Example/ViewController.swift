@@ -222,7 +222,9 @@ class ViewController: UIViewController {
             AMPopoverMenuItem.item(with: "分享"),
             AMPopoverMenuItem.item(with: "编辑"),
             AMPopoverMenuItem.item(with: "删除"),
-            AMPopoverMenuItem.item(with: "更多选项")
+            AMPopoverMenuItem.item(with: "更多选项1"),
+            AMPopoverMenuItem.item(with: "更多选项2"),
+            AMPopoverMenuItem.item(with: "更多选项3")
         ]
         
         // 创建菜单视图

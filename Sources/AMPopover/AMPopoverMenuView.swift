@@ -81,12 +81,12 @@ public class AMPopoverMenuView: UIView {
     /// - Parameter anchorView: 菜单的锚点视图，箭头将指向此视图
     public func show(with anchorView: UIView) {
         // 计算实际需要的高度
-        let itemHeight = CGFloat(menuItems.count) * rowHeight
-        let actualHeight = min(itemHeight, maxHeight)
+        let contentHeight = CGFloat(menuItems.count) * rowHeight - 1
+        let containerHeight = min(contentHeight, maxHeight - 1)
         
         // 设置表格视图约束
-        frame = CGRect(x: 0, y: 0, width: menuWidth, height: actualHeight)
-        tableView.isScrollEnabled = actualHeight > maxHeight
+        frame = CGRect(x: 0, y: 0, width: menuWidth, height: containerHeight)
+        tableView.isScrollEnabled = contentHeight > containerHeight
         
         // 创建气泡视图
         let popupView = AMPopover(contentView: self)
