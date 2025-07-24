@@ -10,10 +10,14 @@ let package = Package(
         .library(
             name: "AMPopover",
             targets: ["AMPopover"]),
+            
     ],
     targets: [
         .target(
             name: "AMPopover",
-            dependencies: []),
+            dependencies: [],
+            resources: [
+                .process("Resources")
+            ])
     ]
 ) 

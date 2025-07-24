@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		060472D65D1AC44C0FB103D97C0F2691 /* AMPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2855678D80475DA169A21C0C7318262F /* AMPopover.swift */; };
-		12722B8522FBE2D38E0596285E353997 /* AMPopoverMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80111996D2FC6E2DB221E5C979185889 /* AMPopoverMenuView.swift */; };
-		233E5A36AB41AB77B856C8240BE75690 /* AMPopover-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67259E8B61DCE8F31BE0BFCF1E3B6E9D /* AMPopover-dummy.m */; };
-		67DF50A03A8AEE2234D0C5A5F032102B /* AMPopoverMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BB2A5A84264A5536DF2977649D4834 /* AMPopoverMenuItem.swift */; };
-		86D68057F03F1AAC34B5CBD076A37E3F /* AMPopover-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D36E16AF7FF780434741FBEAA1D895F /* AMPopover-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		070FEA81FB7A9324AFD525D0908F0C69 /* AMPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB76A6E0DE44E76A99E39965E1CE0BFE /* AMPopover.swift */; };
+		108EC3F2A2806D379CBC52072429BF8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		59EBD2794E1A7D95456D53257FECCFCC /* AMPopover-AMPopover in Resources */ = {isa = PBXBuildFile; fileRef = 82E6391E9504108995E177FB1448694B /* AMPopover-AMPopover */; };
 		8D796AE13EEEDD4522796CDA6C16FE9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		934A836A70063364D9C179807554EE4F /* AMPopover-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9318CAF4929CFEDD139C5C1DFBBA7700 /* AMPopover-dummy.m */; };
+		A62F48597ADF614525C8DEBA5DA829FF /* PrivacyInfo.xcprivacy in Sources */ = {isa = PBXBuildFile; fileRef = 834DDE73CE094EFA2A4DA146B55B87AC /* PrivacyInfo.xcprivacy */; };
+		ADA5DFB3AAB8F7B0C04B0DDB17D0E2EE /* AMPopoverMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9699B95F197E120CE8D89322972BBA3 /* AMPopoverMenuItem.swift */; };
+		C5397A135E058E1E8DFF991E364C2FB0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 834DDE73CE094EFA2A4DA146B55B87AC /* PrivacyInfo.xcprivacy */; };
+		CBEF4CFBAB23A686D9056D11CD61C586 /* AMPopoverMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E434674BD3DC9DA7176E8E5A0DB45AE /* AMPopoverMenuView.swift */; };
+		D3F91974B45F7E63C7CB2341921DBF2A /* AMPopover-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37FEF5CDD992242BDDA9B47168400A21 /* AMPopover-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F344BA1AF0701E62D80F52F99113A7F1 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */; };
 		F69E3A07D2A0D612A8875FB9CF2E3AFC /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE411EF1EF0A3614962E90D7B2BA3CAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D12E84FA747BF40D940979A30919C91D /* PBXContainerItemProxy */ = {
+		3B32F271537E1F99C261B3178CEDA5F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 465D856AC69801AB52BFD360C34A66ED;
+			remoteInfo = "AMPopover-AMPopover";
+		};
+		C9CE99EBDE9C5AC6A33752C9A893AAE6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -29,40 +39,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F64C915DC60B1428C79A55FCD1338FF /* AMPopover-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMPopover-prefix.pch"; sourceTree = "<group>"; };
+		11D6C3F3A31C71F70FF370AE865E1319 /* AMPopover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMPopover.release.xcconfig; sourceTree = "<group>"; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Example"; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2184B0EC5353DEF7972DEEBEA0D8D3E5 /* ResourceBundle-AMPopover-AMPopover-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AMPopover-AMPopover-Info.plist"; sourceTree = "<group>"; };
 		243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		2855678D80475DA169A21C0C7318262F /* AMPopover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMPopover.swift; path = Sources/AMPopover/AMPopover.swift; sourceTree = "<group>"; };
-		2E828C67EE6075911EB8FD90EDFBC873 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		31C1D37707DFAA5E6A164BCC07834264 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
+		331552AAEE23FF51570EE491F1B3BA7C /* AMPopover-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMPopover-Info.plist"; sourceTree = "<group>"; };
 		35C305D3797C284E6F5BAA1D3E6F9BF8 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
+		37FEF5CDD992242BDDA9B47168400A21 /* AMPopover-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMPopover-umbrella.h"; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3D36E16AF7FF780434741FBEAA1D895F /* AMPopover-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMPopover-umbrella.h"; sourceTree = "<group>"; };
+		3E434674BD3DC9DA7176E8E5A0DB45AE /* AMPopoverMenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMPopoverMenuView.swift; path = Sources/AMPopover/AMPopoverMenuView.swift; sourceTree = "<group>"; };
 		441854E35F81731E63E53DC7E4EEAD9D /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4C2B84C97F3E702B6F10D05C2FF5A82F /* AMPopover.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMPopover.modulemap; sourceTree = "<group>"; };
-		67259E8B61DCE8F31BE0BFCF1E3B6E9D /* AMPopover-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMPopover-dummy.m"; sourceTree = "<group>"; };
 		7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		80111996D2FC6E2DB221E5C979185889 /* AMPopoverMenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMPopoverMenuView.swift; path = Sources/AMPopover/AMPopoverMenuView.swift; sourceTree = "<group>"; };
-		8F5B6408D7E89304C3526209B8E077E9 /* AMPopover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMPopover.release.xcconfig; sourceTree = "<group>"; };
+		7A5EE04CC33911C659BA019DFC931928 /* AMPopover.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMPopover.modulemap; sourceTree = "<group>"; };
+		82E6391E9504108995E177FB1448694B /* AMPopover-AMPopover */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "AMPopover-AMPopover"; path = AMPopover.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		834DDE73CE094EFA2A4DA146B55B87AC /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		8A51D7325606FD050EBEC0C5D2400961 /* AMPopover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMPopover.debug.xcconfig; sourceTree = "<group>"; };
+		9318CAF4929CFEDD139C5C1DFBBA7700 /* AMPopover-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMPopover-dummy.m"; sourceTree = "<group>"; };
+		98D34654B0E30218986B0BB17D9A2572 /* AMPopover.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AMPopover.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99CC857D0EC6E8C2756BB13315099CAC /* AMPopover */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMPopover; path = AMPopover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A9CD95B5337F6CC9909853A992F74C4A /* AMPopover.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AMPopover.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD276D4E56491DF42584AC9BF8C6E318 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
 		B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D5BB2A5A84264A5536DF2977649D4834 /* AMPopoverMenuItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMPopoverMenuItem.swift; path = Sources/AMPopover/AMPopoverMenuItem.swift; sourceTree = "<group>"; };
+		CC0F460789C8A931A5BD57AECE68A705 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		DBC4C5569016D7235E7599769C3047E4 /* AMPopover-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMPopover-Info.plist"; sourceTree = "<group>"; };
+		E9699B95F197E120CE8D89322972BBA3 /* AMPopoverMenuItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMPopoverMenuItem.swift; path = Sources/AMPopover/AMPopoverMenuItem.swift; sourceTree = "<group>"; };
 		EA21B344259B58996DB73382B1B1521F /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F3A4BFC9D2E27682278378A77CD29661 /* AMPopover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMPopover.debug.xcconfig; sourceTree = "<group>"; };
-		F99B5D1E9892F5948F61E70870E94E0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FB76A6E0DE44E76A99E39965E1CE0BFE /* AMPopover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMPopover.swift; path = Sources/AMPopover/AMPopover.swift; sourceTree = "<group>"; };
+		FE629E8B82B7EFA19B555051DFEA150C /* AMPopover-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMPopover-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		606919888BDDC09C728D08002A5477D7 /* Frameworks */ = {
+		6D4837AFD6C32D90D5A2F11467F8C6D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE411EF1EF0A3614962E90D7B2BA3CAB /* Foundation.framework in Frameworks */,
+				108EC3F2A2806D379CBC52072429BF8B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,39 +87,57 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E06095F523E30BB48D33A18D94E9CC0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		340D6C63581C3118C71039D46F6BFDF0 /* Products */ = {
+		41351760388751762100F460C2846268 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				99CC857D0EC6E8C2756BB13315099CAC /* AMPopover */,
+				82E6391E9504108995E177FB1448694B /* AMPopover-AMPopover */,
 				1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		65AD5E45A26CA67B63746A65F0F89504 /* AMPopover */ = {
+		46EF5394510A6D4D9320DC2354C8E1C0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2855678D80475DA169A21C0C7318262F /* AMPopover.swift */,
-				D5BB2A5A84264A5536DF2977649D4834 /* AMPopoverMenuItem.swift */,
-				80111996D2FC6E2DB221E5C979185889 /* AMPopoverMenuView.swift */,
-				7ED75AB5395679C8D9AB57107B2307C9 /* Pod */,
-				B86444DFC2CD983CD3C99ADED3FA447B /* Support Files */,
+				834DDE73CE094EFA2A4DA146B55B87AC /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			path = Sources/AMPopover/Resources;
+			sourceTree = "<group>";
+		};
+		6A6E38C2F8907275D901C71E845C1934 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				98D34654B0E30218986B0BB17D9A2572 /* AMPopover.podspec */,
+				CC0F460789C8A931A5BD57AECE68A705 /* LICENSE */,
+				AD276D4E56491DF42584AC9BF8C6E318 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8C7C2FE6D23193C79782019E4E305DF3 /* AMPopover */ = {
+			isa = PBXGroup;
+			children = (
+				FB76A6E0DE44E76A99E39965E1CE0BFE /* AMPopover.swift */,
+				E9699B95F197E120CE8D89322972BBA3 /* AMPopoverMenuItem.swift */,
+				3E434674BD3DC9DA7176E8E5A0DB45AE /* AMPopoverMenuView.swift */,
+				6A6E38C2F8907275D901C71E845C1934 /* Pod */,
+				46EF5394510A6D4D9320DC2354C8E1C0 /* Resources */,
+				D9CD338214FE2C2E7D5CAED651917F19 /* Support Files */,
 			);
 			name = AMPopover;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		7ED75AB5395679C8D9AB57107B2307C9 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A9CD95B5337F6CC9909853A992F74C4A /* AMPopover.podspec */,
-				F99B5D1E9892F5948F61E70870E94E0E /* LICENSE */,
-				2E828C67EE6075911EB8FD90EDFBC873 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		9BDBD95ED116334D1B2835202D8D3060 /* Pods-Example */ = {
@@ -126,27 +157,12 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		B4E1B5848AE26822DF96A3C011549645 /* Development Pods */ = {
+		C7338EF9C29FBC9C062F2250401009B1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				65AD5E45A26CA67B63746A65F0F89504 /* AMPopover */,
+				8C7C2FE6D23193C79782019E4E305DF3 /* AMPopover */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B86444DFC2CD983CD3C99ADED3FA447B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4C2B84C97F3E702B6F10D05C2FF5A82F /* AMPopover.modulemap */,
-				67259E8B61DCE8F31BE0BFCF1E3B6E9D /* AMPopover-dummy.m */,
-				DBC4C5569016D7235E7599769C3047E4 /* AMPopover-Info.plist */,
-				0F64C915DC60B1428C79A55FCD1338FF /* AMPopover-prefix.pch */,
-				3D36E16AF7FF780434741FBEAA1D895F /* AMPopover-umbrella.h */,
-				F3A4BFC9D2E27682278378A77CD29661 /* AMPopover.debug.xcconfig */,
-				8F5B6408D7E89304C3526209B8E077E9 /* AMPopover.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AMPopover";
 			sourceTree = "<group>";
 		};
 		CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */ = {
@@ -161,9 +177,9 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B4E1B5848AE26822DF96A3C011549645 /* Development Pods */,
+				C7338EF9C29FBC9C062F2250401009B1 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				340D6C63581C3118C71039D46F6BFDF0 /* Products */,
+				41351760388751762100F460C2846268 /* Products */,
 				CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -174,6 +190,22 @@
 				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9CD338214FE2C2E7D5CAED651917F19 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A5EE04CC33911C659BA019DFC931928 /* AMPopover.modulemap */,
+				9318CAF4929CFEDD139C5C1DFBBA7700 /* AMPopover-dummy.m */,
+				331552AAEE23FF51570EE491F1B3BA7C /* AMPopover-Info.plist */,
+				FE629E8B82B7EFA19B555051DFEA150C /* AMPopover-prefix.pch */,
+				37FEF5CDD992242BDDA9B47168400A21 /* AMPopover-umbrella.h */,
+				8A51D7325606FD050EBEC0C5D2400961 /* AMPopover.debug.xcconfig */,
+				11D6C3F3A31C71F70FF370AE865E1319 /* AMPopover.release.xcconfig */,
+				2184B0EC5353DEF7972DEEBEA0D8D3E5 /* ResourceBundle-AMPopover-AMPopover-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AMPopover";
 			sourceTree = "<group>";
 		};
 		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
@@ -195,11 +227,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94B65A04668B22460AD60964658C4AB8 /* Headers */ = {
+		9828D5D2AF73DA457D752F9D3B7AF1F4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86D68057F03F1AAC34B5CBD076A37E3F /* AMPopover-umbrella.h in Headers */,
+				D3F91974B45F7E63C7CB2341921DBF2A /* AMPopover-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,25 +250,43 @@
 			buildRules = (
 			);
 			dependencies = (
-				D9CD134D4D3E56EF7AA2BFCEB6DAAFFD /* PBXTargetDependency */,
+				737D122F82A1615BC2445A462D6C034B /* PBXTargetDependency */,
 			);
 			name = "Pods-Example";
 			productName = Pods_Example;
 			productReference = 1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */;
 			productType = "com.apple.product-type.framework";
 		};
-		FDF72AD5D286DDDE4A8DD43D5828C36D /* AMPopover */ = {
+		465D856AC69801AB52BFD360C34A66ED /* AMPopover-AMPopover */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F64D18CD59D8FA31235626B26EF972E /* Build configuration list for PBXNativeTarget "AMPopover" */;
+			buildConfigurationList = 97B5F558A771127FC2241051B9DA4768 /* Build configuration list for PBXNativeTarget "AMPopover-AMPopover" */;
 			buildPhases = (
-				94B65A04668B22460AD60964658C4AB8 /* Headers */,
-				CC7EF75F5CB0C203A4DE9B88B46C9A47 /* Sources */,
-				606919888BDDC09C728D08002A5477D7 /* Frameworks */,
-				B3DFB08E1E81CC1D2ACC80CC7D37C5A7 /* Resources */,
+				BC772BE45139EB56C49D629A70D6B05E /* Sources */,
+				E06095F523E30BB48D33A18D94E9CC0B /* Frameworks */,
+				36ACF804EE595AE20A4B5392BC5AE66A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = "AMPopover-AMPopover";
+			productName = AMPopover;
+			productReference = 82E6391E9504108995E177FB1448694B /* AMPopover-AMPopover */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FDF72AD5D286DDDE4A8DD43D5828C36D /* AMPopover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB920335AAE648B0DE1A94C9AA0B5AC /* Build configuration list for PBXNativeTarget "AMPopover" */;
+			buildPhases = (
+				9828D5D2AF73DA457D752F9D3B7AF1F4 /* Headers */,
+				CF0C3F08F83E5F5A7C7B4EEC0E280907 /* Sources */,
+				6D4837AFD6C32D90D5A2F11467F8C6D8 /* Frameworks */,
+				68FAAEAA3F2E9D31B941D0F46C62D7A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E9BB4AE301FEF1E075A75B8E6A7B39E /* PBXTargetDependency */,
 			);
 			name = AMPopover;
 			productName = AMPopover;
@@ -263,21 +313,31 @@
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 340D6C63581C3118C71039D46F6BFDF0 /* Products */;
+			productRefGroup = 41351760388751762100F460C2846268 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FDF72AD5D286DDDE4A8DD43D5828C36D /* AMPopover */,
+				465D856AC69801AB52BFD360C34A66ED /* AMPopover-AMPopover */,
 				0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B3DFB08E1E81CC1D2ACC80CC7D37C5A7 /* Resources */ = {
+		36ACF804EE595AE20A4B5392BC5AE66A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5397A135E058E1E8DFF991E364C2FB0 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68FAAEAA3F2E9D31B941D0F46C62D7A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59EBD2794E1A7D95456D53257FECCFCC /* AMPopover-AMPopover in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,32 +359,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC7EF75F5CB0C203A4DE9B88B46C9A47 /* Sources */ = {
+		BC772BE45139EB56C49D629A70D6B05E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				060472D65D1AC44C0FB103D97C0F2691 /* AMPopover.swift in Sources */,
-				233E5A36AB41AB77B856C8240BE75690 /* AMPopover-dummy.m in Sources */,
-				67DF50A03A8AEE2234D0C5A5F032102B /* AMPopoverMenuItem.swift in Sources */,
-				12722B8522FBE2D38E0596285E353997 /* AMPopoverMenuView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0C3F08F83E5F5A7C7B4EEC0E280907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070FEA81FB7A9324AFD525D0908F0C69 /* AMPopover.swift in Sources */,
+				934A836A70063364D9C179807554EE4F /* AMPopover-dummy.m in Sources */,
+				ADA5DFB3AAB8F7B0C04B0DDB17D0E2EE /* AMPopoverMenuItem.swift in Sources */,
+				CBEF4CFBAB23A686D9056D11CD61C586 /* AMPopoverMenuView.swift in Sources */,
+				A62F48597ADF614525C8DEBA5DA829FF /* PrivacyInfo.xcprivacy in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D9CD134D4D3E56EF7AA2BFCEB6DAAFFD /* PBXTargetDependency */ = {
+		6E9BB4AE301FEF1E075A75B8E6A7B39E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AMPopover-AMPopover";
+			target = 465D856AC69801AB52BFD360C34A66ED /* AMPopover-AMPopover */;
+			targetProxy = 3B32F271537E1F99C261B3178CEDA5F4 /* PBXContainerItemProxy */;
+		};
+		737D122F82A1615BC2445A462D6C034B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AMPopover;
 			target = FDF72AD5D286DDDE4A8DD43D5828C36D /* AMPopover */;
-			targetProxy = D12E84FA747BF40D940979A30919C91D /* PBXContainerItemProxy */;
+			targetProxy = C9CE99EBDE9C5AC6A33752C9A893AAE6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		70104A8D78FB16ADACCB8569303161D7 /* Release */ = {
+		27ED61754B5F6E686AF58B0546206405 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F5B6408D7E89304C3526209B8E077E9 /* AMPopover.release.xcconfig */;
+			baseConfigurationReference = 8A51D7325606FD050EBEC0C5D2400961 /* AMPopover.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AMPopover";
+				IBSC_MODULE = AMPopover;
+				INFOPLIST_FILE = "Target Support Files/AMPopover/ResourceBundle-AMPopover-AMPopover-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = AMPopover;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		623055E2C072CAEB239283E505D7B7EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D6C3F3A31C71F70FF370AE865E1319 /* AMPopover.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -354,7 +445,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 6.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -507,6 +598,23 @@
 			};
 			name = Release;
 		};
+		9D45E10C4FED86FF2F759F44C49A2FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D6C3F3A31C71F70FF370AE865E1319 /* AMPopover.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AMPopover";
+				IBSC_MODULE = AMPopover;
+				INFOPLIST_FILE = "Target Support Files/AMPopover/ResourceBundle-AMPopover-AMPopover-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = AMPopover;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -569,9 +677,9 @@
 			};
 			name = Release;
 		};
-		D11E5319D7AB3412D9D7379F27B91992 /* Debug */ = {
+		FA19F46E2BF0329DE0506915F86B8A91 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3A4BFC9D2E27682278378A77CD29661 /* AMPopover.debug.xcconfig */;
+			baseConfigurationReference = 8A51D7325606FD050EBEC0C5D2400961 /* AMPopover.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -601,7 +709,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 6.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -629,11 +737,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F64D18CD59D8FA31235626B26EF972E /* Build configuration list for PBXNativeTarget "AMPopover" */ = {
+		97B5F558A771127FC2241051B9DA4768 /* Build configuration list for PBXNativeTarget "AMPopover-AMPopover" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D11E5319D7AB3412D9D7379F27B91992 /* Debug */,
-				70104A8D78FB16ADACCB8569303161D7 /* Release */,
+				27ED61754B5F6E686AF58B0546206405 /* Debug */,
+				9D45E10C4FED86FF2F759F44C49A2FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB920335AAE648B0DE1A94C9AA0B5AC /* Build configuration list for PBXNativeTarget "AMPopover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA19F46E2BF0329DE0506915F86B8A91 /* Debug */,
+				623055E2C072CAEB239283E505D7B7EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

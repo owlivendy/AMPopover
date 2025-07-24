@@ -1,5 +1,7 @@
 PODS:
-  - AMPopover (1.0.0)
+  - AMPopover (1.1.4):
+    - AMPopover/Resources (= 1.1.4)
+  - AMPopover/Resources (1.1.4)
 
 DEPENDENCIES:
   - AMPopover (from `../`)
@@ -9,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AMPopover: bad780d861ebbc8fbdb8e5e64a6b136a89b76c0e
+  AMPopover: ec9b504628fab1a08d60376bd0b86b6e817c6b9d
 
 PODFILE CHECKSUM: 582ac3258f8c46a34d45ead097aafd0ff2ee5063
 
